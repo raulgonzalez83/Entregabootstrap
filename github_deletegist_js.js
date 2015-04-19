@@ -1,5 +1,5 @@
-var USERNAME = "raulgonzalez83";
-var PASSWORD = "gonzalez83";
+var USERNAME = "";
+var PASSWORD = "";
 var API_BASSE_URL = "https://api.github.com";
 $.ajaxSetup({
     headers: { 'Authorization': "Basic "+ btoa(USERNAME+':'+PASSWORD) }
